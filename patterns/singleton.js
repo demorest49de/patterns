@@ -5,9 +5,9 @@ export const _noSingleton = () => {
       this.b = x;
     }
   }
-  
-  console.log(' NotSingletion: ', new NotSingletion(35));
-  console.log(' NotSingletion: ', new NotSingletion(10));
+  //
+  // console.log(' NotSingletion: ', new NotSingletion(35));
+  // console.log(' NotSingletion: ', new NotSingletion(10));
 };
 
 export const _singletonPattern = () => {
@@ -25,8 +25,8 @@ export const _singletonPattern = () => {
     
     return Singletion;
   })();
-  
-  console.log(' Singleton: ',new SingletonFn(35));
-  console.log(' Singleton: ',new SingletonFn(25));
-  console.log(' Singleton: ',new SingletonFn(15));
+  //
+  // console.log(' Singleton: ',new SingletonFn(35));
+  // console.log(' Singleton: ',new SingletonFn(25));
+  // console.log(' Singleton: ',new SingletonFn(15));
 }
