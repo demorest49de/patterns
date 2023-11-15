@@ -1,5 +1,4 @@
-const _noSingleton = () => {
+import {_noSingleton} from "./patterns/singleton.js";
 
-};
 
-console.log('hello');
+console.log(' _noSingleton(): ', _noSingleton());
